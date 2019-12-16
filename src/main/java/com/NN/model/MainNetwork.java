@@ -109,4 +109,13 @@ public class MainNetwork {
         return 1 / (1 + Math.exp(-x));
     }
 
+    private double ReLU(double x){//Функция ReLU (пока не  используется)
+
+        System.out.println("Из значения " +
+                x +
+                " Получим значение функции ReLU: " +
+                Math.max(0,x));
+        return Math.max(0,x);
+    }
+
 }
